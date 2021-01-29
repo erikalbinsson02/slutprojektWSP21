@@ -5,6 +5,7 @@ Jag ska göra ett forum, där man kan logga in och kostomisera ens profil där m
 ## 2. Vyer (visa bildskisser på dina sidor).
 ![skiss](20210122_143833.jpg)
 ## 3. Databas med ER-diagram (Bild på ER-diagram).
+![er-diagram](20210129_141250.jpg)
 ## 4. Arkitektur (Beskriv filer och mappar - vad gör/innehåller de?).
 
 
