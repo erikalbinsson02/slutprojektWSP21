@@ -1,4 +1,33 @@
+.index_header{
+    display: grid;
+    grid-template-rows: 60% 40%;
+    grid-template-columns: 15% 70% 15%;
+}
+
 .hamburger_menu{
-    width: 100px;
+    grid-row: 1;
+    grid-column: 1;
+    width: 30%;
+    height: auto; 
+}
+
+.profile_img{
+    grid-row: 1;
+    grid-column: 3;
+    width: 30%;
     height: auto;
+}
+
+.site_title{
+    grid-row: 1;
+    grid-column: 2;
+    font-size: 64px;
+    display: flex;
+    justify-content: center;
+    margin: 0px;
+}
+
+.search_form{
+    grid-row: 2;
+    grid-column: 3; 
 }
