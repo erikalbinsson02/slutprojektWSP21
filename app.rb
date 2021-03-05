@@ -4,6 +4,16 @@ require"sqlite3"
 enable :sessions
 require_relative "./model.rb"
 
-get("/") do 
+get("/") do
+    slim(:login)
+end
+
+get("/index") do 
     slim(:index)
 end
+
+get("/register") do 
+    slim(:register)
+end
+
+

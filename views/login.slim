@@ -1,0 +1,14 @@
+body class="login_body"
+    p class="site_title" = "Backflash"
+    
+    section class="login_view"
+        h2 class="login_title" = "Please login or register new account if you are new"
+
+        form action="login" method="post"
+        input class="login_username" type="text" name="username" placeholder="Enter username"
+        input class="login_password" type="text" name="password" placeholder="Enter password"
+        input class="login_button" type="submit" value="Login"
+
+        
+        form action="/register" method="get"
+                input class="login_button" type="submit" value="Register"

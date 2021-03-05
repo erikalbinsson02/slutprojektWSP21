@@ -31,3 +31,31 @@
     grid-row: 2;
     grid-column: 3; 
 }
+
+.login_body{
+    background-color: crimson;
+}
+
+.login_view{
+    margin-left: 30%;
+    margin-right: 30%;
+    height: 400px;
+    background-color: rgb(114, 212, 69);
+    border-style: solid;
+    display: grid;
+    grid-row: 30% 30% 30% 10%;
+}
+
+.login_title{
+    grid-row: 1;
+}
+
+.login_username{
+    grid-row: 2;
+}
+.login_password{
+    grid-row: 3;
+}
+.login_button{
+    grid-row: 4;
+}
