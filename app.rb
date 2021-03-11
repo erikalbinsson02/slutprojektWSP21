@@ -16,4 +16,6 @@ get("/register") do
     slim(:register)
 end
 
-
+post("/register") do
+    register_user(username,password,password_confirm)
+end
